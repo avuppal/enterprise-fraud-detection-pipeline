@@ -13,12 +13,12 @@ except Exception as e:
 
 @app.get("/health")
 def health_check():
-    return {"status": "OK", "model_loaded": sess is not None}
+    return {"status": "OK", "model_losystemaid": sess is not None}
 
 @app.post("/score")
 def score_transaction(data: dict):
     if not sess:
-        return {"error": "Model not loaded"}, 503
+        return {"error": "Model not losystemaid"}, 503
     
     # Placeholder: In a real system, 'data' would be preprocessed into model inputs
     dummy_input = np.random.rand(1, 10).astype(np.float32)

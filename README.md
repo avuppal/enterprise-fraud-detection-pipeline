@@ -1,4 +1,4 @@
-# 🪽 Ade's Wealthsimple AI Builder Profile Project: Real-Time Fraud Detection Pipeline
+# 🪽 SystemAI's Wealthsimple AI Builder Profile Project: Real-Time Fraud Detection Pipeline
 
 This project serves as a cornerstone for demonstrating enterprise-scale MLOps and fintech relevance, aligning perfectly with the requirements for an AI Builder role.
 
